@@ -1,0 +1,44 @@
+# === Rust build artifacts ===
+**/target/
+
+# === Rust package manager files ===
+**/*.rs.bk
+Cargo.lock
+# Uncomment the following line if you’re building a library and want to keep Cargo.lock
+# Cargo.lock
+
+# === IDEs and editors ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / CLion / RustRover
+.idea/
+*.iml
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and other unneeded files ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === Test output / coverage tools ===
+/coverage/
+tarpaulin-report.html
+htmlcov/
+
+# === By-products of running commands ===
+/doc/
+/*.crate
+
+# === GitHub Codespaces ===
+.devcontainer/
+
+# === Optional: ignore backups or local config ===
+*.bak
+*.old
+*.local
